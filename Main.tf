@@ -5,4 +5,5 @@ resource "random_password" "password" {
 }
 Output"password" {
     value=random_password.password.result
+    senstive = true
 }
